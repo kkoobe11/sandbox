@@ -23,6 +23,6 @@ jobs:
       - name: Build app
         run: npm run build
       - name: Deploy app
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+        uses: kkoobe11/github-pages-deploy-action
         with:
           branch: gh-pages
